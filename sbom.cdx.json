@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:99543c7f-6b1f-529d-8265-6daeea861ece",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:22:18Z",
+    "component": {
+      "type": "application",
+      "name": "OPENSEARCH",
+      "version": "unknown",
+      "bom-ref": "pkg:generic/anticloud/OPENSEARCH@unknown",
+      "purl": "pkg:generic/anticloud/OPENSEARCH@unknown",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/opensearch-project/OpenSearch.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
